@@ -17,9 +17,10 @@ const SubscribeFooter = () => {
                 Be the first to know when your local florist has new seasonal
                 selections, limited time offers, and much more!
               </p>
-              <Link to="/contact" className="btn-one d-table mt-1" >
+              {/* <Link to="/contact" className="btn-one d-table mt-1" >
                 Connect with us <i className="fas fa-arrow-right"></i>
-              </Link>
+              </Link> */}
+              <Link className="btn-one d-table mt-1" to="/contact">Connect with us <i className="fas fa-arrow-right"></i></Link>
             </div>
           </div>
 
