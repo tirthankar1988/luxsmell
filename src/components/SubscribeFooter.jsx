@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mainProduct from '../../public/images/main-product.png';
 
 const SubscribeFooter = () => {
