@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import subscribeBg from '../../public/images/subscribe-bg1.jpg';
 const SubscribeSection = () => {
   return (
     <section className="subscribe">
       <div
         className="subscribe__one"
-        style={{ backgroundImage: "url('../public/images/subscribe-bg1.jpg')" }}
+        style={{ backgroundImage: subscribeBg }}
       >
         <div className="container">
           <div className="row justify-content-center">
