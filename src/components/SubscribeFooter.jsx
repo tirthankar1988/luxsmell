@@ -1,4 +1,5 @@
 import React from 'react';
+import mainProduct from '../../public/images/main-product.png';
 
 const SubscribeFooter = () => {
   return (
@@ -27,7 +28,7 @@ const SubscribeFooter = () => {
             <div className="right_subscribe_box">
               <div className="red_single_bunch">
                 <img
-                  src="../public/images/main-product.png"
+                  src={mainProduct}
                   alt="red rose single"
                 />
               </div>
