@@ -17,9 +17,9 @@ const SubscribeFooter = () => {
                 Be the first to know when your local florist has new seasonal
                 selections, limited time offers, and much more!
               </p>
-              <a href="#" className="btn-one d-table mt-1">
-                Subscribe <i className="fas fa-arrow-right"></i>
-              </a>
+              <Link to="/contact" className="btn-one d-table mt-1" >
+                Connect with us <i className="fas fa-arrow-right"></i>
+              </Link>
             </div>
           </div>
 
