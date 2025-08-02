@@ -6,7 +6,7 @@ const SubscribeSection = () => {
     <section className="subscribe">
       <div
         className="subscribe__one"
-        style={{ backgroundImage: subscribeBg }}
+        style={{ backgroundImage: `url(${subscribeBg})` }}
       >
         <div className="container">
           <div className="row justify-content-center">
