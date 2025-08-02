@@ -545,6 +545,12 @@ span {
     background-repeat: no-repeat;
     background: #0b2315;
 }
+@media(max-width: 767px){
+  .banner__one
+  {
+    padding-top: 0;
+  }
+}
 .image-wrapper{
   max-width: 600px;
   width: 100%;
